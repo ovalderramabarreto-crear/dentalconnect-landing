@@ -4,7 +4,7 @@ const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 // === CONFIGURACIÓN (rellena cuando quieras) ===
-const GOOGLE_FORMS_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf6OGrJh-bAhJz-VxgOyAl7189_SV2--llf_CYy9WqfMBLhzg/viewform?usp=header";
+const GOOGLE_FORMS_URL = https://docs.google.com/forms/d/e/1FAIpQLSf6OGrJh-bAhJz-VxgOyAl7189_SV2--llf_CYy9WqfMBLhzg/viewform?usp=preview;
 const WHATSAPP_NUMBER_E164 = "34675790393"; // Ej: "34600111222"
 const EMAIL = "ovalderramabarreto@gmail.com";
 
