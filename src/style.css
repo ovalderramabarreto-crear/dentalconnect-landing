@@ -88,10 +88,15 @@ h3 { margin: 0 0 10px; font-size: 18px; }
   padding: 18px;
 }
 .card--soft {
-  background: rgba(255,255,255,0.14);
-  border: 1px solid rgba(255,255,255,0.22);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
+.hero__card.card {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
 .card--soft h3,
 .card--soft h2 {
   color: rgba(255,255,255,0.95);
@@ -140,7 +145,11 @@ h3 { margin: 0 0 10px; font-size: 18px; }
   border-color: rgba(122,162,255,0.35);
 }
 .btn--primary:hover { background: rgba(122,162,255,0.24); }
-.btn--ghost { background: rgba(255,255,255,0.04); }
+.btn--ghost {
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
 .btn--ghost:hover { background: rgba(255,255,255,0.07); }
 .btn--block { width: 100%; }
 
@@ -215,4 +224,24 @@ h3 { margin: 0 0 10px; font-size: 18px; }
 
 .card p, .card li {
   color: rgba(255,255,255,0.82);
+}
+.badge{
+  background: rgba(255,255,255,0.22);
+  border: 1px solid rgba(255,255,255,0.30);
+  color: rgba(255,255,255,0.95);
+}
+.btn{
+  border: 1px solid rgba(255,255,255,0.28);
+}
+
+.btn--primary{
+  background: rgba(255,255,255,0.22);
+  border: 1px solid rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.98);
+}
+
+.btn--ghost{
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.30);
+  color: rgba(255,255,255,0.96);
 }
