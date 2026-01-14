@@ -2,8 +2,11 @@
   --bg: #0b0f17;
   --panel: #101827;
   --panel2: #0f1624;
-  --text: #e8eefc;
-  --muted: #aab6d3;
+  :root{
+  --text: #0b1b2b;   /* texto principal (oscuro) */
+  --muted: #12314a;  /* texto secundario */
+}
+
   --line: rgba(255, 255, 255, 0.08);
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
   --radius: 18px;
@@ -180,3 +183,6 @@ h3 { margin: 0 0 10px; font-size: 18px; }
   color: #9fb0d6;
   font-size: 0.95rem;
 }
+.hero h1 { color: #ffffff; }
+.hero .lead { color: rgba(255,255,255,0.92); }
+.hero-benefits { color: rgba(255,255,255,0.92); }
