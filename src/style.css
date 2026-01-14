@@ -159,3 +159,22 @@ h3 { margin: 0 0 10px; font-size: 18px; }
   font-size: 18px;
   letter-spacing: 0.2px;
 }
+.hero-benefits {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.25rem;
+  padding: 0;
+  list-style: none;
+  color: #cbd5f5;
+  font-size: 0.95rem;
+}
+
+.hero-benefits li {
+  display: flex;
+  align-items: center;
+}
+.hero-trust {
+  margin-top: 0.75rem;
+  color: #9fb0d6;
+  font-size: 0.95rem;
+}
