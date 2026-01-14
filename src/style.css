@@ -3,8 +3,11 @@
   --panel: #101827;
   --panel2: #0f1624;
   :root{
-  --text: #0b1b2b;   /* texto principal (oscuro) */
-  --muted: #12314a;  /* texto secundario */
+  :root{
+  --text: rgba(255,255,255,0.92);
+  --muted: rgba(255,255,255,0.78);
+}
+
 }
 
   --line: rgba(255, 255, 255, 0.08);
@@ -84,7 +87,21 @@ h3 { margin: 0 0 10px; font-size: 18px; }
   box-shadow: var(--shadow);
   padding: 18px;
 }
-.card--soft { background: rgba(255,255,255,0.03); box-shadow: none; }
+.card--soft {
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.22);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+.card--soft h3,
+.card--soft h2 {
+  color: rgba(255,255,255,0.95);
+}
+
+.card--soft p,
+.card--soft li {
+  color: rgba(255,255,255,0.85);
+}
+
 
 .hero__card .card { position: sticky; top: 84px; }
 
@@ -180,9 +197,22 @@ h3 { margin: 0 0 10px; font-size: 18px; }
 }
 .hero-trust {
   margin-top: 0.75rem;
-  color: #9fb0d6;
+  color: rgba(255,255,255,0.88);
   font-size: 0.95rem;
 }
 .hero h1 { color: #ffffff; }
 .hero .lead { color: rgba(255,255,255,0.92); }
 .hero-benefits { color: rgba(255,255,255,0.92); }
+.card {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  backdrop-filter: blur(8px);
+}
+.card h3, .card h2, .card strong {
+  color: rgba(255,255,255,0.96);
+}
+
+.card p, .card li {
+  color: rgba(255,255,255,0.82);
+}
