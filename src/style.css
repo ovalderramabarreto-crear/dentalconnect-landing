@@ -245,3 +245,14 @@ h3 { margin: 0 0 10px; font-size: 18px; }
   border: 1px solid rgba(255,255,255,0.30);
   color: rgba(255,255,255,0.96);
 }
+.pilot-banner{
+  margin: 14px 0 18px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  background: rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: rgba(255,255,255,0.95);
+}
